@@ -41,7 +41,7 @@
     // Swap for backwards compatability
     @if $type == string {
       $degree: $pos;
-      $spec: to _position-flipper($pos);
+      $spec: $pos;
     }
     @else {
       $degree: -270 - $pos; //rotate the gradient opposite from spec

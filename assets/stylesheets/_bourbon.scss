@@ -32,7 +32,6 @@
 @import "css3/background";
 @import "css3/background-image";
 @import "css3/border-image";
-@import "css3/border-radius";
 @import "css3/box-sizing";
 @import "css3/calc";
 @import "css3/columns";
@@ -66,8 +65,4 @@
 @import "addons/retina-image";
 @import "addons/size";
 @import "addons/timing-functions";
-@import "addons/triangle";
 @import "addons/word-wrap";
-
-// Soon to be deprecated Mixins
-@import "bourbon-deprecated-upcoming";

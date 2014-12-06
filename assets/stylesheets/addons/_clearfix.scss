@@ -12,11 +12,8 @@
 //    }
 
 @mixin clearfix {
-  &:after {
-    content:"";
-    display:table;
-    clear:both;
-  }
+  overflow: hidden;
+  *zoom: 1;
 }
 
 // Acknowledgements

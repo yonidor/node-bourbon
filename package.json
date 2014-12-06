@@ -4,7 +4,7 @@
   "description": "node-sass port of thoughtbot's Bourbon library",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec --recursive --growl"
+    "test": "mocha --reporter spec --recursive --growl"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,11 @@
     "sass",
     "css"
   ],
-  "author": "Michael LaCroix <michael@lacroixdesign.net> (http://www.lacroixdesign.net)",
+  "author": {
+    "name": "Michael LaCroix",
+    "email": "michael@lacroixdesign.net",
+    "url": "http://www.lacroixdesign.net"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lacroixdesign/node-bourbon/issues"
@@ -23,5 +27,26 @@
     "chai": "~1.8.1",
     "mocha": "~1.14.0",
     "node-sass": "~0.8.6"
-  }
+  },
+  "homepage": "https://github.com/lacroixdesign/node-bourbon",
+  "_id": "node-bourbon@1.2.3",
+  "dist": {
+    "shasum": "4ddd125dfca0d4ad6c3555ba9b6a15c12e60f6bd",
+    "tarball": "http://registry.npmjs.org/node-bourbon/-/node-bourbon-1.2.3.tgz"
+  },
+  "_from": "node-bourbon@",
+  "_npmVersion": "1.3.26",
+  "_npmUser": {
+    "name": "iamlacroix",
+    "email": "michael@lacroixdesign.net"
+  },
+  "maintainers": [
+    {
+      "name": "iamlacroix",
+      "email": "michael@lacroixdesign.net"
+    }
+  ],
+  "directories": {},
+  "_shasum": "4ddd125dfca0d4ad6c3555ba9b6a15c12e60f6bd",
+  "_resolved": "https://registry.npmjs.org/node-bourbon/-/node-bourbon-1.2.3.tgz"
 }

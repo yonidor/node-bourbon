@@ -1,8 +1,9 @@
 // Legacy support for inline-block in IE7 (maybe IE6)
 @mixin inline-block {
+  display: -moz-inline-stack;
   display: inline-block;
-  vertical-align: baseline;
+  vertical-align: middle;
+  *vertical-align: auto;
   zoom: 1;
   *display: inline;
-  *vertical-align: auto;
 }

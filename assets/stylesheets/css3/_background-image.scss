@@ -5,6 +5,8 @@
 
 @mixin background-image($images...) {
   background-image: _add-prefix($images, webkit);
+  background-image: _add-prefix($images, moz);
+  background-image: _add-prefix($images, o);
   background-image: _add-prefix($images);
 }
 
@@ -26,6 +28,7 @@
       }
       @else {
         $gradient-args: nth(nth($images, $i), 2); // Get actual gradient (red, blue)
+
       }
 
       $gradient-positions: _gradient-positions-parser($gradient-type, $gradient-pos);
@@ -39,7 +42,6 @@
   }
   @return $images-prefixed;
 }
-
 //Examples:
   //@include background-image(linear-gradient(top, orange, red));
   //@include background-image(radial-gradient(50% 50%, cover circle, orange, red));
