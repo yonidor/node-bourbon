@@ -44,12 +44,12 @@
 }
 
 @mixin box-ordinal-group($int: 1) {
-  @include prefixer(box-ordinal-group, $int, webkit moz spec);
+  @include prefixer(box-ordinal-group, $int, webkit moz ms spec);
   -ms-flex-order: $int; // IE 10
 }
 
 @mixin box-flex($value: 0.0) {
-  @include prefixer(box-flex, $value, webkit moz spec);
+  @include prefixer(box-flex, $value, webkit moz ms spec);
   -ms-flex: $value; // IE 10
 }
 
